@@ -1,0 +1,82 @@
+/*
+* @Author: Administrator
+* @Date:   2018-09-21 21:10:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-29 15:36:25
+*/
+*{
+	/* margin:0; */
+}
+html{
+	font-size: 16px;
+	font: microsoft-yahei;
+	margin-bottom: 20px;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.rightSpace{
+	margin-right: 30px;
+}
+.clearfix{
+	clear: both;
+}
+.headline{
+	height: 50px;
+	color: white;
+	background-color: grey;
+	padding-left: 20px;
+}
+/* 覆盖h1默认的样式 */
+.headline h1{
+	font:700 16px/50px microsoft-yahei;
+}
+
+.basisMes,
+.contact,
+.ability, 
+.education,
+.project
+ {
+	height: 120px;
+	border-bottom: 1px solid #eee;
+}
+.basisMes h2,
+.contact h2,
+.ability h2,
+.education h2,
+.project h2{
+	float: left;
+	font: 700 16px/120px microsoft-yahei;
+	text-align: center;
+	background-color: lightgrey;
+	margin: 0;
+	width: 100px;
+}
+.basisMes > div,
+.contact > div,
+.ability > div,
+.education > div,
+.project >div
+{
+	float: left;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+/* 调整 */
+.ability > div,
+.education > div
+.project > div{
+	padding-top: 0;
+}
+.ability > div br,
+.education > div br,
+.project > div br{
+	display: none;
+}
+
