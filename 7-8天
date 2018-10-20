@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	html{
+		margin: 0;
+		padding: 0;
+	}
+	.header{
+		height: 60px;
+		width: 100%;
+		background-color: #666;
+	}
+	.middle{
+		width: 960px;
+		margin: 0 auto ;
+	}
+	.header .logo{
+		float: left;
+		color: white;
+		font-size: 25px;
+		line-height: 60px;
+	}
+	.header .github{
+		float: right;
+		font-size: 14px;
+		padding-top: 10px;
+	}
+	.header .github a{
+		color: white;
+	}
+	.banner{
+		height: 220px;
+		background-color: #66bb33;
+		position: relative;
+	}
+	.banner div{
+		position: absolute;
+		right: 180px;
+		bottom: 10px;
+		font-size: 20px;
+	}
+	.banner div span {
+		padding: 4px;
+		border: 1px solid black ;
+		background-color: #b2dd99;
+	}
+	.banner div span:nth-child(2){
+		padding-top: 10px;
+		background-color: #e0f1d6;
+	}
+	.tab{
+		height: 70px;
+		border-bottom: 1px solid #ccc;
+		
+	}
+	.tab .middle {
+		position: relative;
+		height: 70px;
+	}
+	.tab .tabList{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+
+	}
+	.tab .tabList span{
+		float: left;
+		border: 1px solid #eeeeee;
+		padding: 10px;
+		border-radius: 20% 20% 0 0;
+		background-color: #eeeeee;
+	}
+	.tab .tabList a:nth-of-type(1) span{
+		background-color: white;
+	}
+
+	.content .middle{
+		padding-top: 10px;
+	}
+	.flex{
+		display: flex;
+		margin-bottom: 10px;
+	}
+	.flex div{
+		height: 175px;
+		line-height: 175px;
+		flex: 1;
+		border: 1px solid #eee;
+		margin-right: 10px;
+		text-align: center;
+	}
+	.footer{
+		height: 120px;
+		background-color: #666;
+		line-height: 120px;
+		text-align: center;
+		color: white;
+	}
+
+
+
+
+
+	</style>
+</head>
+<body>
+<div class="header">
+	<div class="middle">
+	<span class="logo">Logo</span>
+	<span class="github">
+		<span><a href="#">Github</a></span>
+		<span><a href="#">Register</a></span>
+		<span><a href="#">Login</a></span>
+	</span>
+	</div>
+</div>
+<div class="banner">
+		<div>
+			<span>1</span>
+			<span>2</span>	
+			<span>3</span>
+			<span>4</span>
+		</div>
+</div>
+	<div class="tab">
+		<div class="middle">
+			<div class="tabList">
+				<a href="#"><span>HOME</span></a>
+				<a href="#"><span>PROFILE</span></a>
+				<a href="#"><span>ABOUT</span></a>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+	<div class="middle">
+		<div class="flex" >
+			<div>This is Content 1</div>
+			<div>MaybeContent 2</div>
+			<div>Content 3</div>
+		</div>
+		<div class="flex">
+			<div>Content 4</div>
+			<div>Content 5</div>
+			<div>Content 6</div>
+			<div>Content 7</div>
+		</div>
+		<div class="flex">
+			<div>Content 8</div>
+			<div>Content 9</div>
+			<div>Content 10</div>
+		</div>
+		</div>
+	</div>
+
+<div class="footer">©2018 ife.baidu.com</div>
+</body>
+</html>
